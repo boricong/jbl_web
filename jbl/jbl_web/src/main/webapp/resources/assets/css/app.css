@@ -52,6 +52,7 @@ h6 {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 
+/*
 h1, h2, h3, h4, h5, h6 {
 	color: #555;
 	margin-top: 5px;
@@ -59,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	font-family: "Open Sans", Arial, sans-serif;
 }
+*/
 
 h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	margin-right: 5px;

@@ -341,11 +341,13 @@ background:#e74c3c;
 	padding-top: 65px;
 }
 
+/*
 .tp-caption.NotGeneric-Title, .NotGeneric-Title,
 .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle,
 .tp-caption.NotGeneric-CallToAction, .NotGeneric-CallToAction {
 	font-family: "Open Sans", Arial, sans-serif;
 }
+*/
 @media (max-width: 768px) {
 	.tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle {
 		display: none;

@@ -21,7 +21,7 @@ function initMap() {
 	});
 
 	var image = new google.maps.MarkerImage(
-		'assets/img/marker.png',
+		'./resources/assets/img/marker.png',
 		new google.maps.Size(48,54),
 		new google.maps.Point(0,0),
 		new google.maps.Point(24,54)
@@ -30,22 +30,23 @@ function initMap() {
 	var customMapTypeId = 'custom_style';
 
 	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 12,
+		zoom: 17,
 		scrollwheel: false,
-		center: {lat: 40.674, lng: -73.946},  // Brooklyn.
+		//37.492096, 127.009551
+		center: {lat: 37.492, lng: 127.0094},  // 오퓨런스
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
 		}
 	});
 
 	var infowindow = new google.maps.InfoWindow;
-	infowindow.setContent('<b>Brooklyn</b>');
+	infowindow.setContent('<b>제이비엘 법률사무소</b>');
 
 	var marker = new google.maps.Marker({
 		map: map,
 		clickable: false,
 		icon: image,
-		position: {lat: 40.674, lng: -73.946}
+		position: {lat: 37.492, lng: 127.0094}
 	});
 
 	map.mapTypes.set(customMapTypeId, customMapType);
