@@ -1,11 +1,21 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
 
+### Java ###
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
 ### STS ###
 .apt_generated
 .classpath
 .factorypath
-.project
 .settings
 .springBeans
 

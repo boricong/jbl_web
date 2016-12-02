@@ -395,7 +395,7 @@ background:#e74c3c;
 	height: auto;
 }
 .navbar-brand > img {
-	width: 110px;
+	width: 220px;
 }
 @media (max-width: 768px) {
 	.one-page-header .navbar-brand {
