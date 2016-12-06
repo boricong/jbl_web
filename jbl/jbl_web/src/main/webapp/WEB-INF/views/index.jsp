@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800&amp;subset=cyrillic,latin">
     -->
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="./resources/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./aaa/resources/assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./resources/assets/css/app.css">
     <link rel="stylesheet" href="./resources/assets/css/blocks.css">
     <link rel="stylesheet" href="./resources/assets/css/one.style.css">
