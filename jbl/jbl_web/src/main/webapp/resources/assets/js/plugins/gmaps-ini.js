@@ -17,7 +17,7 @@ function initMap() {
 				stylers: [{color: '#f7f4f4'}]
 			}
 		], {
-			name: 'Unify Style'
+			name: '제이비엘 법률사무소'
 	});
 
 	var image = new google.maps.MarkerImage(
